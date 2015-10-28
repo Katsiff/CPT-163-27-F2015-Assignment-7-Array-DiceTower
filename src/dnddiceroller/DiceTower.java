@@ -18,9 +18,9 @@ import java.util.Random;
 public class DiceTower {
    
   //fields
-  final int PANEL_COUNT = 3;
-  List<Die> dice;
-  int trayValue = 0;
+  final private int PANEL_COUNT = 3;
+  final private List<Die> dice;
+  private int trayValue = 0;
 
  
    //constructors accept values for fields. 
